@@ -27,7 +27,7 @@ import java.security.cert.X509Certificate;
 @Configuration
 @EnableDurableClient(id = "pizza-store")
 @EnableEntityDefinedRegions(basePackages = "com.vmware.tanzu.gemfire.model")
-@EnableClusterConfiguration(useHttp = true)
+//@EnableClusterConfiguration(useHttp = true)
 public class PizzaConfig {
 
 //     @Profile({"off-platform", "app-foundation"})
